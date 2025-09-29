@@ -1897,15 +1897,6 @@ else:
     - Color-coded tables by functional area (customers, orders, products)
     
     #### 📈 **Automatic Chart Generation**
-    - Smart AI detection of chart-worthy data from ALL query results
-    - Auto-generates appropriate visualizations:
-      - **Bar Charts**: For categorical comparisons and counts
-      - **Line Charts**: For time series and trend analysis  
-      - **Pie Charts**: For proportional data (≤10 categories)
-      - **Scatter Plots**: For correlation analysis
-      - **Histograms**: For distribution analysis
-    - Interactive Plotly charts with zoom, pan, and hover features
-    - Download charts as HTML, PNG, or JSON formats
     - Educational insights explaining why each chart type was chosen
     - Works with all database types (SQLite, MySQL, custom, Chinook)
     
@@ -1946,4 +1937,5 @@ else:
 
 # Footer
 st.markdown("---")
+
 st.markdown("Built with LangChain, OpenAI/Groq APIs, Graphviz and Streamlit | 🗃️ Complete SQL Learning & Analytics Platform")
