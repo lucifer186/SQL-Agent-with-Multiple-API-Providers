@@ -64,19 +64,19 @@ o	Groq: Get from console.groq.com/keys  \
 5.	Start querying! 
 
 ## Database Options
-1. Sample Chinook Database 
+1. Sample Chinook Database \
 •	Pre-loaded music store database \
 •	Ideal for learning and testing \
 •	Contains customers, tracks, albums, artists, invoices 
-2. Upload Custom SQLite Database 
+2. Upload Custom SQLite Database \
 •	Upload your own .db files \
 •	Automatic validation and schema analysis \
 •	Instant querying capabilities 
-3. Connect to MySQL Database 
+3. Connect to MySQL Database \
 •	Remote MySQL server connection \
 •	Full credential management \
 •	Connection testing and validation 
-4. Create Custom Database 
+4. Create Custom Database \
 •	Describe any business domain \
 •	AI generates appropriate schema \
 •	Auto-populated with realistic data \
@@ -85,7 +85,7 @@ o	Groq: Get from console.groq.com/keys  \
 ## 5. SQL Learning & Practice
 •	Interactive tutorials and resources \
 •	Interview preparation materials \
-•	Practice challenges and assessments \
+•	Practice challenges and assessments 
 
 ## Usage Examples
 Natural Language Queries 
