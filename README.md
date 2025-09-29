@@ -42,25 +42,25 @@ graphviz  # For ERD generation \
 sqlalchemy  # For database introspection 
 
 # Setup Instructions
-## 1. Clone Repository \
+## 1. Clone Repository 
 git clone <repository-url> \
 cd sql-agent-app 
 
 ## 2. Install Dependencies
-`pip install streamlit langchain-community langchain-openai langchain-groq`
-`pip install plotly pandas pymysql faker requests`
+`pip install streamlit langchain-community langchain-openai langchain-groq` \
+`pip install plotly pandas pymysql faker requests` \
 `pip install graphviz sqlalchemy  # Optional for ERD features`
 
 ## 3. Run Application
 `streamlit run app10.py`
 
 ## 4. Configuration
-1.	Choose API provider (OpenAI or Groq) \
-2.	Enter your API key: \
+1.	Choose API provider (OpenAI or Groq) 
+2.	Enter your API key: 
    
-o	OpenAI: Get from platform.openai.com/api-keys \
-o	Groq: Get from console.groq.com/keys \
-4.	Select your database option \
+o	OpenAI: Get from platform.openai.com/api-keys 
+o	Groq: Get from console.groq.com/keys 
+4.	Select your database option 
 5.	Start querying! 
 
 ## Database Options
@@ -89,11 +89,11 @@ o	Groq: Get from console.groq.com/keys \
 
 ## Usage Examples
 Natural Language Queries \
-- "How many customers are from each country?" \
-- "Show me the top 10 best-selling tracks" \
-- "What are the total sales by year?" \
-- "Which genres are most popular?" \
-Database Creation Examples \
+- "How many customers are from each country?" 
+- "Show me the top 10 best-selling tracks" 
+- "What are the total sales by year?" 
+- "Which genres are most popular?" 
+Database Creation Examples 
 - "Create a database for an online store with customers, products, and orders" \
 - "Create a hospital management system with patients and doctors" \
 - "Create a library system with books, authors, and borrowings" \
