@@ -83,32 +83,32 @@ o	Groq: Get from console.groq.com/keys  \
 •	Example domains: e-commerce, hospital, school, restaurant 
 
 ## 5. SQL Learning & Practice
-•	Interactive tutorials and resources \
-•	Interview preparation materials \
-•	Practice challenges and assessments \
+•	Interactive tutorials and resources 
+•	Interview preparation materials 
+•	Practice challenges and assessments 
 
 ## Usage Examples
-Natural Language Queries \
+Natural Language Queries 
 - "How many customers are from each country?" 
 - "Show me the top 10 best-selling tracks" 
 - "What are the total sales by year?" 
 - "Which genres are most popular?" 
 Database Creation Examples 
-- "Create a database for an online store with customers, products, and orders" \
-- "Create a hospital management system with patients and doctors" \
+- "Create a database for an online store with customers, products, and orders" 
+- "Create a hospital management system with patients and doctors" 
 - "Create a library system with books, authors, and borrowings" 
 
 # Architecture
 ## Core Components 
-1.	Database Manager: Handles connections to SQLite/MySQL databases \
-2.	AI Agent: LangChain-powered SQL agent for natural language processing \
-3.	Visualization Engine: Automatic chart generation and ERD creation \
+1.	Database Manager: Handles connections to SQLite/MySQL databases 
+2.	AI Agent: LangChain-powered SQL agent for natural language processing 
+3.	Visualization Engine: Automatic chart generation and ERD creation 
 4.	Learning Hub: Comprehensive SQL education resources
 ## Data Flow
-1.	User inputs natural language question \
-2.	LangChain agent generates appropriate SQL query \
-3.	Query executed against database \
-4.	Results processed and visualized \
+1.	User inputs natural language question 
+2.	LangChain agent generates appropriate SQL query 
+3.	Query executed against database 
+4.	Results processed and visualized 
 5.	Natural language explanation provided 
 
 ## File Structure 
@@ -116,7 +116,7 @@ sql-agent-app/ \
 ├── app.py                 # Main Streamlit application \
 ├── requirements.txt       # Python dependencies \
 ├── README.md             # This file \
-└── temp/                 # Temporary files (auto-created) \
+└── temp/                 # Temporary files (auto-created) 
 
 ## API Support
 OpenAI Models \
