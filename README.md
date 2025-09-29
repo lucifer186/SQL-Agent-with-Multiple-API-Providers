@@ -152,15 +152,16 @@ Groq Models \
 
 # Troubleshooting
 ## Common Issues
-1.	API Key Validation Failed: Verify your API key is correct and has sufficient credits \
-2.	Database Connection Error: Check file permissions and database format \
-3.	ERD Generation Failed: Install graphviz and sqlalchemy packages \
+1.	API Key Validation Failed: Verify your API key is correct and has sufficient credits 
+2.	Database Connection Error: Check file permissions and database format 
+3.	ERD Generation Failed: Install graphviz and sqlalchemy packages 
 4.	MySQL Connection Issues: Verify host, port, credentials, and network access
 
 ## Error Handling
 •	Comprehensive error messages with suggestions \
 •	Graceful fallbacks for missing dependencies \
-•	Connection retry mechanisms\ 
+•	Connection retry mechanisms \ 
 •	User-friendly error displays
+
 ## License
 MIT License - See LICENSE file for details
