@@ -64,114 +64,103 @@ o	Groq: Get from console.groq.com/keys \
 5.	Start querying! 
 
 ## Database Options
-1. Sample Chinook Database
-•	Pre-loaded music store database
-•	Ideal for learning and testing
-•	Contains customers, tracks, albums, artists, invoices
-2. Upload Custom SQLite Database
-•	Upload your own .db files
-•	Automatic validation and schema analysis
-•	Instant querying capabilities
-3. Connect to MySQL Database
-•	Remote MySQL server connection
-•	Full credential management
-•	Connection testing and validation
-4. Create Custom Database
-•	Describe any business domain
-•	AI generates appropriate schema
-•	Auto-populated with realistic data
-•	Example domains: e-commerce, hospital, school, restaurant
-5. SQL Learning & Practice
-•	Interactive tutorials and resources
-•	Interview preparation materials
-•	Practice challenges and assessments
-Usage Examples
-Natural Language Queries
-- "How many customers are from each country?"
-- "Show me the top 10 best-selling tracks"
-- "What are the total sales by year?"
-- "Which genres are most popular?"
-Database Creation Examples
-- "Create a database for an online store with customers, products, and orders"
-- "Create a hospital management system with patients and doctors"
-- "Create a library system with books, authors, and borrowings"
-Architecture
-Core Components
-1.	Database Manager: Handles connections to SQLite/MySQL databases
-2.	AI Agent: LangChain-powered SQL agent for natural language processing
-3.	Visualization Engine: Automatic chart generation and ERD creation
+1. Sample Chinook Database \
+•	Pre-loaded music store database \
+•	Ideal for learning and testing \
+•	Contains customers, tracks, albums, artists, invoices \
+2. Upload Custom SQLite Database \
+•	Upload your own .db files \
+•	Automatic validation and schema analysis \
+•	Instant querying capabilities \
+3. Connect to MySQL Database \
+•	Remote MySQL server connection \
+•	Full credential management \
+•	Connection testing and validation \
+4. Create Custom Database \
+•	Describe any business domain \
+•	AI generates appropriate schema \
+•	Auto-populated with realistic data \
+•	Example domains: e-commerce, hospital, school, restaurant 
+
+## 5. SQL Learning & Practice
+•	Interactive tutorials and resources \
+•	Interview preparation materials \
+•	Practice challenges and assessments \
+
+## Usage Examples
+Natural Language Queries \
+- "How many customers are from each country?" \
+- "Show me the top 10 best-selling tracks" \
+- "What are the total sales by year?" \
+- "Which genres are most popular?" \
+Database Creation Examples \
+- "Create a database for an online store with customers, products, and orders" \
+- "Create a hospital management system with patients and doctors" \
+- "Create a library system with books, authors, and borrowings" \
+
+# Architecture
+## Core Components 
+1.	Database Manager: Handles connections to SQLite/MySQL databases \
+2.	AI Agent: LangChain-powered SQL agent for natural language processing \
+3.	Visualization Engine: Automatic chart generation and ERD creation \
 4.	Learning Hub: Comprehensive SQL education resources
-Data Flow
-1.	User inputs natural language question
-2.	LangChain agent generates appropriate SQL query
-3.	Query executed against database
-4.	Results processed and visualized
-5.	Natural language explanation provided
-File Structure
+## Data Flow
+1.	User inputs natural language question \
+2.	LangChain agent generates appropriate SQL query \
+3.	Query executed against database \
+4.	Results processed and visualized \
+5.	Natural language explanation provided 
+
+## File Structure 
 sql-agent-app/
-├── app.py                 # Main Streamlit application
-├── requirements.txt       # Python dependencies
-├── README.md             # This file
-└── temp/                 # Temporary files (auto-created)
-API Support
-OpenAI Models
-•	GPT-3.5 Turbo
-•	GPT-4
-•	GPT-4 Turbo
-•	GPT-4o
-•	GPT-4o Mini
-Groq Models
-•	Llama 3.1 8B Instant
-•	Llama 3.3 70B Versatile
-•	Qwen 3 32B
-•	Gemma2 9B IT
-Security Considerations
-•	API keys handled securely through Streamlit secrets
-•	No persistent storage of sensitive data
-•	Temporary database files auto-cleanup
-•	Connection validation and error handling
-Performance Features
-•	Connection pooling and caching
-•	Optimized query execution
-•	Progressive loading for large datasets
+├── app.py                 # Main Streamlit application \
+├── requirements.txt       # Python dependencies \
+├── README.md             # This file \
+└── temp/                 # Temporary files (auto-created) \
+
+## API Support
+OpenAI Models \
+•	GPT-3.5 Turbo \
+•	GPT-4 \
+•	GPT-4 Turbo \
+•	GPT-4o \
+•	GPT-4o Mini \
+Groq Models \
+•	Llama 3.1 8B Instant \
+•	Llama 3.3 70B Versatile \
+•	Qwen 3 32B \
+•	Gemma2 9B IT 
+
+## Security Considerations
+•	API keys handled securely through Streamlit secrets \
+•	No persistent storage of sensitive data \
+•	Temporary database files auto-cleanup \
+•	Connection validation and error handling 
+
+## Performance Features
+•	Connection pooling and caching \
+•	Optimized query execution \
+•	Progressive loading for large datasets \
 •	Memory-efficient chart generation
-Educational Value
-•	Perfect for SQL learning and practice
-•	Database design understanding
-•	Data visualization principles
-•	Interview preparation
+
+## Educational Value
+•	Perfect for SQL learning and practice \
+•	Database design understanding \
+•	Data visualization principles \
+•	Interview preparation \
 •	Real-world data analysis scenarios
-Troubleshooting
-Common Issues
-1.	API Key Validation Failed: Verify your API key is correct and has sufficient credits
-2.	Database Connection Error: Check file permissions and database format
-3.	ERD Generation Failed: Install graphviz and sqlalchemy packages
+
+# Troubleshooting
+## Common Issues
+1.	API Key Validation Failed: Verify your API key is correct and has sufficient credits \
+2.	Database Connection Error: Check file permissions and database format \
+3.	ERD Generation Failed: Install graphviz and sqlalchemy packages \
 4.	MySQL Connection Issues: Verify host, port, credentials, and network access
-Error Handling
-•	Comprehensive error messages with suggestions
-•	Graceful fallbacks for missing dependencies
-•	Connection retry mechanisms
+
+## Error Handling
+•	Comprehensive error messages with suggestions \
+•	Graceful fallbacks for missing dependencies \
+•	Connection retry mechanisms\ 
 •	User-friendly error displays
-Contributing
-1.	Fork the repository
-2.	Create feature branch
-3.	Add tests for new functionality
-4.	Submit pull request with detailed description
-License
+## License
 MIT License - See LICENSE file for details
-Changelog
-Version 1.0
-•	Initial release with core functionality
-•	OpenAI and Groq API support
-•	Basic database querying
-Version 2.0
-•	Added ERD generation
-•	Automatic chart creation
-•	Custom database generation
-•	SQL learning hub
-Future Enhancements
-•	PostgreSQL support
-•	Advanced analytics features
-•	Collaborative query sharing
-•	Database performance optimization tools
-•	Export capabilities for reports
