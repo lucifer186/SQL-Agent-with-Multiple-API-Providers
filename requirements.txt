@@ -1,0 +1,14 @@
+langchain
+langgraph
+langchain-openai
+openai
+langchain-community
+pydantic
+langchain-groq
+streamlit
+langchain_groq
+pymysql
+faker
+graphviz
+sqlalchemy
+plotly
