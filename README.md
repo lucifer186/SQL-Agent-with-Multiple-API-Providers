@@ -58,9 +58,9 @@ cd sql-agent-app
 1.	Choose API provider (OpenAI or Groq) 
 2.	Enter your API key: 
    
-o	OpenAI: Get from platform.openai.com/api-keys 
-o	Groq: Get from console.groq.com/keys 
-4.	Select your database option 
+o	OpenAI: Get from platform.openai.com/api-keys \
+o	Groq: Get from console.groq.com/keys  \
+4.	Select your database option \
 5.	Start querying! 
 
 ## Database Options
@@ -96,7 +96,7 @@ Natural Language Queries \
 Database Creation Examples 
 - "Create a database for an online store with customers, products, and orders" \
 - "Create a hospital management system with patients and doctors" \
-- "Create a library system with books, authors, and borrowings" \
+- "Create a library system with books, authors, and borrowings" 
 
 # Architecture
 ## Core Components 
@@ -112,7 +112,7 @@ Database Creation Examples
 5.	Natural language explanation provided 
 
 ## File Structure 
-sql-agent-app/
+sql-agent-app/ \
 ├── app.py                 # Main Streamlit application \
 ├── requirements.txt       # Python dependencies \
 ├── README.md             # This file \
